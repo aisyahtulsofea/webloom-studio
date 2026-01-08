@@ -82,7 +82,7 @@ function App() {
           <h3>Promotional Video</h3>
           <div className="video-container">
              <video width="100%" controls poster="/thumbnail.png">
-                <source src="/blooooooom.mp4" type="video/mp4" />
+                <source src="https://youtu.be/k0evu0HIpvs" type="video/mp4" />
              </video>
           </div>
         </div>
