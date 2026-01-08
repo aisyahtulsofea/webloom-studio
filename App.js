@@ -81,9 +81,15 @@ function App() {
         <div className='videoBack reveal'>
           <h3>Promotional Video</h3>
           <div className="video-container">
-             <video width="100%" controls poster="/thumbnail.png">
-                <source src="https://youtu.be/k0evu0HIpvs" type="video/mp4" />
-             </video>
+             <iframe
+                width="100%"
+                height="450" /* You can adjust this height */
+                src="https://www.youtube.com/embed/k0evu0HIpvs?si=XUPpPhkwt1T3z3a8"
+                title="WeBloom Studio Promotional Video"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
           </div>
         </div>
       </section>
